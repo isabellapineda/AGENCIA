@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Thumbnail Grid with Expanding Preview</title>
+		<meta name="description" content="Thumbnail Grid with Expanding Preview" />
+		<meta name="keywords" content="thumbnails, grid, preview, google image search, jquery, image grid, expanding, preview, portfolio" />
+
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+	
+			
+			<div class="main">
+				<ul id="og-grid" class="og-grid">
+                	<li>
+						<a href="#" data-largesrc="images/21.jpg" data-title="VALLES DEL SOL" data-description="Revista mensual de distribución local en Chicureo y Huechuraba, con contenido publicitario y periodístico. ">
+							<img src="images/thumbs/21.jpg" alt="img021"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/5.jpg" data-title="PUCALAN MONTESSORI" data-description="Anuario escolar de publicación anual, con contenido sobre las actividades y los alumnos del Colegio Pucalán Montessori de Chicureo.">
+							<img src="images/thumbs/5.jpg" alt="img05"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/6.jpg" data-title="SPA SONIA FERNANDEZ" data-description="Revista corporativa con información de productos y servicios del Spa Sonia Fernández.">
+							<img src="images/thumbs/6.jpg" alt="img06"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/7.jpg" data-title="RUGGED" data-description="Catálogo comercial con fotos e información de modelos de calzado outback para la marca Rugged.">
+							<img src="images/thumbs/7.jpg" alt="img07"/>
+						</a>
+					</li>
+                    <li>
+						<a href="#" data-largesrc="images/17.jpg" data-title="VIVIENDO" data-description="Revista institucional con información dirigida a los propietarios del condominio Las Brisas de Chicureo.">
+							<img src="images/thumbs/17.jpg" alt="img017"/>
+						</a>
+					</li>
+					<li>
+						<a href="#" data-largesrc="images/40.png" data-title="CABO DE HORNOS" data-description="Brochure institucional dirigido a apoderados del Colegio Cabo de Hornos.">
+							<img src="images/thumbs/40.png" alt="img040"/>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+				// adding more items
+				$('#og-additems').on( 'click', function() {
+					var $items = $( '<li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li><li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li><li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li><li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li><li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li><li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li><li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li><li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li><li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li><li><a href="http://cargocollective.com/jaimemartinez/" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot."><img src="images/thumbs/1.jpg" alt="img01"/></a></li>' ).appendTo( $( '#og-grid' ) );
+					
+					Grid.addItems( $items );
+					return false;
+				} );
+			});
+		</script>
+	</body>
+</html>
